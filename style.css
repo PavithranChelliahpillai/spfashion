@@ -105,3 +105,27 @@ sub, sup {
 	line-height: 0;
 }
     /* sets superscript and subscript text so that it doesn't throw off leading for elements in which they are included */
+
+nav {
+    width: 100%;  
+
+    /* colour inversion */
+    background-color: #09033C;
+    color: #FEFFF8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 2px; 
+}
+
+nav a {
+    padding-left: 4vw; padding-right: 4vw;  
+    padding-top: 1lvh; padding-bottom: 1lvh; 
+}
+
+nav a:hover{
+    background-color: #FEFFF8; 
+    color: #09033C;
+}
