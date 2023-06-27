@@ -113,12 +113,13 @@ nav {
 
     /* colour inversion */
     background-color: hsl(29, 100%, 73%);
-    color: #fff4b6;;
+    color: #fff4b6;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    border: 2px solid #fff4b6; 
     border-radius: 2px; 
 }
 
@@ -163,4 +164,30 @@ header {
 
     border-radius: 10px; 
     border: 5px solid #eccf5b; 
+}
+
+h1 {
+    font-size: 7vh; 
+    margin-bottom: 0vh; 
+}
+
+header {
+    background:  hsl(29, 100%, 73%); 
+    color: #fff4b6;
+}
+
+header p, h1{
+    margin: 0; 
+}
+
+#side_align {
+    display: flex; 
+    height: 24vh; 
+
+    align-items: center; 
+}
+
+#logo {
+    margin: 2vw; 
+    height: 20vh; 
 }
