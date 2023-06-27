@@ -126,10 +126,15 @@ nav {
 nav a {
     padding-left: 4vw; padding-right: 4vw;  
     padding-top: 1lvh; padding-bottom: 1lvh; 
+
+    transition: 0.3s; 
+
+    text-decoration: none; 
+    color: #fff4b6;
 }
 
 nav a:hover{
-    background-color: #fdf4ff; 
+    background-color: hsl(72, 100%, 97%); 
     color: #eccf5b;
 }
 
@@ -163,7 +168,8 @@ header {
     padding: 2vw; 
 
     border-radius: 10px; 
-    border: 5px solid #eccf5b; 
+    border: 5px solid hsl(29, 100%, 73%); 
+    background-color: #fff4b6;
 }
 
 h1 {
