@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
 * { 
 	box-sizing: border-box;
 }
@@ -9,7 +11,8 @@ html, body {
     3rd color: #F8F8FF
     4th color: #FFF8FB
     */
-	color: #000;
+	color: #09033C;
+    font-family: 'Heebo', sans-serif;
 }
 	/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
 	
