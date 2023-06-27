@@ -5,13 +5,13 @@
 }
 html, body {
 	min-height: 100%;
-	background: #f5ead4;
+	background: hsl(72, 100%, 97%);
     /* 
     2nd color: #F8FFFC
     3rd color: #F8F8FF
     4th color: #FFF8FB
     */
-	color: #bea646;
+	color: #eccf5b;
     font-family: 'Heebo', sans-serif;
 
     overflow-x: hidden; 
@@ -112,8 +112,8 @@ nav {
     width: 100%;  
 
     /* colour inversion */
-    background-color: #bea646;
-    color: #f5ead4;
+    background-color: hsl(29, 100%, 73%);
+    color: #fff4b6;;
 
     display: flex;
     justify-content: space-between;
@@ -128,8 +128,8 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #f5ead4; 
-    color: #bea646;
+    background-color: #fdf4ff; 
+    color: #eccf5b;
 }
 
 /* header */
@@ -151,7 +151,9 @@ header {
     padding: 2vw; 
 
     border-radius: 10px; 
-    border: 5px solid #bea646; 
+    border: 5px solid hsl(29, 100%, 73%); 
+
+    background-color: #fff4b6;
 }
 
 #order, #contact, #investors {
@@ -160,5 +162,5 @@ header {
     padding: 2vw; 
 
     border-radius: 10px; 
-    border: 5px solid #bea646; 
+    border: 5px solid #eccf5b; 
 }
