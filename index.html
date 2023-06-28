@@ -76,8 +76,28 @@
 
     <div id="investors">
         <h2>Investor Centre</h2>
+        <p>Interested in what we do at SP fasion? We would be pleasured to hear from you and your potential investment in SP Fasion!</p>
         <div>
-            <!-- JS form -->
+            <div id="group">
+                <div class="inputField">
+                    <input type="name" name="name" id="name" placeholder="Your name" autocomplete="on" required style="width: 44vw; margin-right: 5vw; ">
+                    <span class="valid_info_name"></span>
+                </div>
+        
+                <div class="inputField">
+                    <input type="Email" name="email" id="email" placeholder="Your email" autocomplete="on" required style="width: 40.5vw;">
+                    <span class="valid_info_email"></span>
+                </div>
+            </div>
+        
+            <div class="inputField">
+                <textarea name="message" id="message" placeholder="Your message" style="width: 100%;"></textarea>
+                <span class="valid_info_message"></span>
+            </div>
+        
+            <div class="inputField btn">
+                <button type="submit" id="form-submit" class="main-gradient-button">Send a message</button>
+            </div>
         </div>
     </div>
 
