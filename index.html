@@ -27,15 +27,33 @@
         <a href="#investors">Investors</a>
     </nav>
 
-    <div id="vision">
-        <div id="text">
-            <h2>Our Vision</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ut in esse optio, totam deleniti dolorem facilis neque labore laborum consectetur aut amet iste facere incidunt fugiat magni architecto doloribus hic. Ipsum ex optio ducimus accusamus doloremque. Doloribus iste suscipit cumque optio est voluptates, inventore mollitia labore tenetur laboriosam expedita.</p>
+    <div id="group">
+        <div id="vision">
+            <div id="text">
+                <h2>Our Vision</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ut in esse optio, totam deleniti dolorem facilis neque labore laborum consectetur aut amet iste facere incidunt fugiat magni architecto doloribus hic. Ipsum ex optio ducimus accusamus doloremque. Doloribus iste suscipit cumque optio est voluptates, inventore mollitia labore tenetur laboriosam expedita.</p>
+            </div>
         </div>
-    </div>
 
-    <div id="images">
-        <!-- flexbox for displaying images later? -->
+        <div id="images">
+            <!-- carousel -->
+            <div class="container">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+                <div class="cards">
+                    <label class="card" for="item-1" id="song-1">
+                        <img src="https://www.kimballstock.com/images/animal-stock-photos/dog-stock-images.jpg" alt="song">
+                    </label>
+                    <label class="card" for="item-2" id="song-2">
+                        <img src="https://www.kimballstock.com/images/animal-stock-photos/dog-stock-images.jpg" alt="song">
+                    </label>
+                    <label class="card" for="item-3" id="song-3">
+                        <img src="https://www.kimballstock.com/images/animal-stock-photos/dog-stock-images.jpg" alt="song">
+                    </label>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="order">
@@ -63,7 +81,7 @@
         </div>
     </div>
 
-    <h2></h2>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="index.js"></script>
   </body>
 </html>
