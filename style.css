@@ -175,12 +175,12 @@ header {
 }
 
 /* vision */
-#vision {
+#mission {
     width: 50vw;
     padding: 2vw;
 }
 
-#vision #text {
+#mission #text {
     width: 42vw;
 
     padding: 2vw;
@@ -191,8 +191,8 @@ header {
     background-color: #fff4b6;
 }
 
-#order,
 #contact,
+#vision,
 #investors {
     width: 94vw;
     margin: 2vw;
@@ -573,4 +573,12 @@ hr {
     border-radius: 20px; 
     border: 2px solid hsl(29, 100%, 73%);  
     margin-top: 2vw; margin-bottom: 2vw; 
+}
+
+#order h1{
+    text-align: center; 
+    padding: 5vh; 
+    cursor: url("Link Extra Large.cur"), none;
+
+    transition: 0.3s; 
 }
